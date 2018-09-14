@@ -3,10 +3,9 @@ import java.io.*;
 import java.util.regex.*;
 
 public class Count {
-	
-	String str=null;
 	//统计字符数
 	public void countchar(String path) throws IOException{ 
+		String str=null;
 		int countchar1=0;
 		BufferedReader br=new BufferedReader(new FileReader(path));	
 		while((str=br.readLine())!=null){			
@@ -21,6 +20,7 @@ public class Count {
 	
 	    //统计词的个数
 	public void countword(String path) throws IOException{ 
+		String str=null;
 		int countworde=0;
 		int countwordc=0;
 		int countword=0;	
@@ -46,6 +46,7 @@ public class Count {
 
 	//统计行数
 	public void countline(String path) throws IOException{ 
+		String str=null;
 		int countline1=0;			
 		BufferedReader br=new BufferedReader(new FileReader(path));
 		while((str=br.readLine())!=null){
@@ -57,6 +58,7 @@ public class Count {
     
 	//统计空白行，代码行和注释行各行行数
 	public void countline3(String path) throws IOException{
+		String str=null;
 		int spacelines=0;
 		int codelines=0;
 		int notelines=0;
