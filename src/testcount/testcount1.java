@@ -11,6 +11,8 @@ import wordcount.Create;
 		cr.tips();
 		cr.create("-c -w -l -a D:\\3.txt");
 		cr.create("-q wqrqwf.asfaf");
+		cr.create("-a D:\\JAVAEXP\\wordcount\\src\\wordcount\\Count.java");
+		cr.create("-a D:\\2.txt");
 	}
    }
 	

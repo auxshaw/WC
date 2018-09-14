@@ -64,7 +64,7 @@ public class Count {
 		int notelines=0;
 		String notebegin="\\s*/\\*.*";
 		String noteend=".*\\*/\\s*";
-		String noteall="//.*";
+		String noteall="[^a-zA-Z0-9]*//.*";
 		String regxspace="\\s*\\S?\\s*";
 		boolean flag = false;
 		BufferedReader br=new BufferedReader(new FileReader(path));		 
